@@ -17,7 +17,7 @@ class Vulkaan extends BaseController
         $rows = "";
         foreach ($vulkaan as $result) {
             $rows .= "<tr>
-                        <td>$result->Id</td>
+                        <td>$result->Naam</td>
                         <td>$result->Hoogte</td>
                         <td>$result->Land</td>
                         <td>$result->JaarLaatsteUitbarsting</td>
