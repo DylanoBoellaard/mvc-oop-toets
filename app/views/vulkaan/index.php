@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MVC-OOP Toets P3 Vulkaan</title>
-    <link rel="stylesheet" href="http://mvc-oop-proeftoets.com/public/css/style.css">
+    <link rel="stylesheet" href="http://mvc-oop-toets.com/public/css/style.css">
 </head>
 
 <body>
@@ -24,8 +24,8 @@
                 <?= $data['rows']; ?>
             </tbody>
         </table>
+        <br>
+        <a href="/home/index">Ga naar de homepage</a>
     </div>
-    <br>
-    <a href="/home/index">Ga naar de homepage</a>
 </body>
 </html>
